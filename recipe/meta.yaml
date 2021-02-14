@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slac-lcls/lcls2/archive/{{ version }}.tar.gz 
-  sha256: 3f737342b8483656b7d23ddb8d3f6e9f4750f7fc
+  sha256: 75351dbe58c9178f53b7ea68ac5623f05ff8c3688cd5c8db37e5caa902310b9a 
 
 build:
   skip: True  # [win or osx]
@@ -24,7 +24,7 @@ about:
   home: https://github.com/slac-lcls/lcls2
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
   summary: 'LCLS-II DAQ and Software'
   description: |
     DAQ and analysis software for LCLS-II

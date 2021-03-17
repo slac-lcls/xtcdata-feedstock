@@ -14,9 +14,9 @@ provider:
   linux: travis
 channels:
   sources:
-    - valmar
+    - lcls-ii
     - conda-forge
     - defaults
   targets:
-    - ["valmar", "main"]
+    - ["lcls-ii", "main"]
 

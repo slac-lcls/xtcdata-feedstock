@@ -12,6 +12,7 @@ skip_render:
   - .github/workflows
 provider:
   linux: github_actions
+  osx: github_actions
 channels:
   sources:
     - lcls-ii

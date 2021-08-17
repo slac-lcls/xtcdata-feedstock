@@ -1,5 +1,5 @@
 {% set name = "xtcdata" %}
-{% set version = "3.3.18" %}
+{% set version = "3.3.20" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
 
 build:
   skip: True  # [win]
-  number: 1
+  number: 0
 
 requirements:
   build:

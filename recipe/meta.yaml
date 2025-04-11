@@ -1,5 +1,5 @@
 {% set name = "xtcdata" %}
-{% set version = "3.3.40" %}
+{% set version = "4.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slac-lcls/lcls2/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 6f35e0d3128e0464dc5784fba48be189c15c4a54d4765554092827e0a179ffec
+  sha256: 4b703ae6d23426c0c89717260dfad08ab51b7e77bcc8a4eeff9fed1fd90afbec
 
 build:
   skip: True  # [win]
